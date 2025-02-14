@@ -6,7 +6,7 @@
 /*   By: anschmit <anschmit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 13:29:10 by anschmit          #+#    #+#             */
-/*   Updated: 2025/02/14 11:43:25 by anschmit         ###   ########.fr       */
+/*   Updated: 2025/02/14 12:30:48 by anschmit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,9 +63,6 @@ int close_window(t_game *game)
  */
 void create_window(t_game *game)
 {
-	int height = SCREEN_HEIGHT;
-    int width = SCREEN_WIDTH;
-
     // Initialize player data
     load_player(game);
 
@@ -75,7 +72,7 @@ void create_window(t_game *game)
         print_error("Error! MLX initialization failed!");
 
     // Create the game window
-    game->win = mlx_new_window(game->mlx, width, height, "cub3D");
+    game->win = mlx_new_window(game->mlx, SCREEN_WIDTH, SCREEN_HEIGHT, "cub3D");
     if (game->win == NULL)
     {
         mlx_destroy_display(game->mlx);
@@ -99,7 +96,7 @@ void create_window(t_game *game)
     game->last_mouse_x = SCREEN_WIDTH / 2;
     game->key = -1;
     game->map_size = game->width;
-    set_dir(game);
+   // set_dir(game);
 
     // Load wall textures
     init_mlx_texture(game, NORTH, game->textures[NORTH].path);
@@ -108,8 +105,8 @@ void create_window(t_game *game)
     init_mlx_texture(game, EAST, game->textures[EAST].path);
 
     // Set up rendering and input handling
-	mlx_hook(game->win, KeyPress, KeyPressMask, press_key, game);
-	mlx_hook(game->win, DestroyNotify, ButtonPressMask, free_game, game);
+	mlx_hook(game->win, KeyPress, KeyPressMask, &press_key, game);
+	mlx_hook(game->win, DestroyNotify, ButtonPressMask, &free_game, game);
     mlx_hook(game->win, 17, 0, &close_window, game);
     mlx_loop_hook(game->mlx, &render, game);
     mlx_loop(game->mlx);

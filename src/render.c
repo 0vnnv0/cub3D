@@ -156,7 +156,7 @@ void cast_rays(t_game *game)
     t_ray ray;
     int x = 0;
 
-    while (x < game->width)
+    while (x < SCREEN_WIDTH)
     {
         init_mlx_ray(&ray, game, x);
         perform_dda(&ray, game);

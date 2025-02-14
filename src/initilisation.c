@@ -102,8 +102,11 @@ void init_game(t_game *game)
 {
     game->mlx = NULL;        // MiniLibX instance
     game->win = NULL;        // Window instance
-    game->height = SCREEN_HEIGHT; // Game screen height
-    game->width = SCREEN_WIDTH;   // Game screen width
+    // game->height = SCREEN_HEIGHT; // Game screen height
+    // game->width = SCREEN_WIDTH;   // Game screen width
+	// this is wrong, we don't need screen here, but game.
+	game->height = 0;
+	game->width = 0;
     game->map = NULL;        // Pointer to the game map
 
     init_player(&game->player);   // Initialize player properties

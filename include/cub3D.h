@@ -143,7 +143,7 @@ int		free_game(t_game *game);
 void	print_error(const char *format, ...);
 void	create_window(t_game *game);
 void	init_game(t_game *game);
-int		press_key(int keycode, t_game *game)
+int		press_key(int keycode, t_game *game);
 int		close_window(t_game *game);
 void	move_player(int keycode, t_game *game);
 void	cast_rays(t_game *game);

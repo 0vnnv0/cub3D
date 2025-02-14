@@ -1,0 +1,19 @@
+
+C 225,     30,0
+
+
+NO assets/north.xpm
+SO assets/south.xpm
+
+
+F 220,     30,0
+
+WE           assets/west.xpm
+EA assets/east.xpm
+
+1111111111
+1000000001
+1000000001
+100N100001
+1111111111
+
