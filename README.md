@@ -2,7 +2,8 @@
 
 ## Mandatory Part
 
-https://github.com/user-attachments/assets/1c186d0a-064d-4b27-a0c9-e9a11940bb5d
+https://github.com/user-attachments/assets/2cea9beb-9b6e-4057-bc44-a704298dd409
+
 
 ## Bonus Part
 - Wall collisions.
@@ -10,6 +11,3 @@ https://github.com/user-attachments/assets/1c186d0a-064d-4b27-a0c9-e9a11940bb5d
 - Doors that can be opened and closed.
 - Animated sprites.
 - Rotating the viewpoint with the mouse.
-
-https://github.com/user-attachments/assets/92e2aa46-72b1-41a8-8c98-53216f40d341
-
