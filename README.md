@@ -4,10 +4,11 @@
 
 https://github.com/user-attachments/assets/2cea9beb-9b6e-4057-bc44-a704298dd409
 
-
 ## Bonus Part
 - Wall collisions.
 - A minimap system.
 - Doors that can be opened and closed.
 - Animated sprites.
 - Rotating the viewpoint with the mouse.
+- 
+https://github.com/user-attachments/assets/a19d600c-0a90-4f78-a6d3-543c100a5dbe
