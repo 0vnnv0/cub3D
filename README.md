@@ -3,16 +3,15 @@
 ## 📍 Mandatory Part
 - The program should be capable of setting the floor and ceiling colors with two different colors.
 - It displays the image in a window and follows these rules:
-- Left and right arrow keys allow the user to look left and right in the maze.
-- W, A, S, and D keys allow movement through the maze.
-- Pressing ESC should close the window and exit the program cleanly.
-- Clicking the red cross in the window frame should close the window and exit the program cleanly.
+&emsp; - Left and right arrow keys allow the user to look left and right in the maze.
+&emsp; - W, A, S, and D keys allow movement through the maze.
+&emsp; - Pressing ESC should close the window and exit the program cleanly.
+&emsp; - Clicking the red cross in the window frame should close the window and exit the program cleanly.
 - The use of miniLibX images is recommended.
 
 https://github.com/user-attachments/assets/2cea9beb-9b6e-4057-bc44-a704298dd409
 
 ## ⭐ Bonus Part
-
 - Wall collisions.
 - A minimap system.
 - Doors that can be opened and closed.
@@ -25,3 +24,15 @@ https://github.com/user-attachments/assets/a329a61f-a8a8-418c-bd25-474c950537f6
 - The map should consist only of 6 possible characters: 0 for an empty space, 1 for a wall, and N, S, E, or W for the player's starting position and orientation.
 - The map should be enclosed/surrounded by walls; otherwise, the program should return an error.
 - Each element (except the map) has a type identifier (composed of one or two characters), followed by specific information for each object in a strict order.
+
+
+## ▶️ How to play
+• To compile the game, navigate to the files/ directory and run the following command: <br/>
+```markdown
+make
+```
+• This will generate an executable named cub3d. <br/>
+• To launch the game, use the following command: <br/>
+```bash
+./cub3d maps/subject.cub
+```
