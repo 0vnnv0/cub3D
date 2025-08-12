@@ -10,11 +10,11 @@
   
 ## 📍 Mandatory Part
 - The program should be capable of setting the floor and ceiling colors with two different colors.
-- It displays the image in a window and follows these rules:
-&emsp; - Left and right arrow keys allow the user to look left and right in the maze.
-&emsp; - W, A, S, and D keys allow movement through the maze.
-&emsp; - Pressing ESC should close the window and exit the program cleanly.
-&emsp; - Clicking the red cross in the window frame should close the window and exit the program cleanly.
+- It displays the image in a window and follows these rules: <br/>
+&emsp; - Left and right arrow keys allow the user to look left and right in the maze. <br/>
+&emsp; - W, A, S, and D keys allow movement through the maze. <br/>
+&emsp; - Pressing ESC should close the window and exit the program cleanly. <br/>
+&emsp; - Clicking the red cross in the window frame should close the window and exit the program cleanly. <br/>
 - The use of miniLibX images is recommended.
 
 https://github.com/user-attachments/assets/2cea9beb-9b6e-4057-bc44-a704298dd409
