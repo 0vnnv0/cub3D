@@ -97,7 +97,7 @@ $(OBJDIR_BONUS)/%.o: %.c | $(OBJDIRS_BONUS)
 
 $(BONUS): $(OBJS_BONUS)
 	@$(CC) $(CFLAGS) $(OBJS_BONUS) -o $(BONUS) $(LIBFT) $(MLXFLAGS)
-	@echo "$(GREEN) Executable $(NAME) created.$(RESET)"
+	@echo "$(GREEN) Executable $(BONUS) created.$(RESET)"
 
 clean:
 	@$(MAKE) --no-print-directory clean -C $(LIBFT_DIR)
