@@ -38,7 +38,7 @@ make
 ./cub3d maps/subject.cub
 ```
 
-### How to play Bonus version
+### How to play the ⭐ Bonus version
 • To compile the bonus version, navigate to the files/ directory and run the following command:
 ```markdown
 make_bonus
@@ -46,5 +46,5 @@ make_bonus
 • This will generate an executable named cub3d_bonus.
 • To launch the game, use the following command:
 ```bash
-./cub3d maps/bonus/creepy.cub
+./cub3d_bonus maps/bonus/creepy.cub
 ```
