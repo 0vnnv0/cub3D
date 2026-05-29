@@ -48,3 +48,7 @@ make_bonus
 ```bash
 ./cub3d_bonus maps/bonus/creepy.cub
 ```
+
+---
+
+*Project completed as part of the 42 School curriculum.*
